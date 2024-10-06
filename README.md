@@ -2,10 +2,10 @@
 
 ## RAG System
 
-The RAG (Red-Amber-Green) system is a project management tool used to provide a visual representation of the status of various tasks or projects. Each color represents a different status:
+The RAG (Retrieval-Augmented Generation) system is a method used in natural language processing to enhance the generation of text by incorporating relevant information retrieved from external sources. This approach combines the strengths of retrieval-based and generation-based models:
 
-- **Red**: Indicates that the task or project is in critical condition and requires immediate attention.
-- **Amber**: Indicates that the task or project is experiencing some issues but is under control.
-- **Green**: Indicates that the task or project is on track and progressing as planned.
+- **Retrieval**: The system first retrieves relevant documents or pieces of information from a large corpus based on the input query.
+- **Augmentation**: The retrieved information is then used to augment the input, providing additional context and details.
+- **Generation**: Finally, a generative model uses the augmented input to produce a more accurate and contextually relevant response.
 
-This system helps teams quickly identify and address issues, ensuring that projects stay on schedule and within scope.
+This system helps improve the quality and relevance of generated text, making it particularly useful for tasks such as question answering, summarization, and conversational agents.
